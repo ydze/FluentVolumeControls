@@ -1,0 +1,21 @@
+root = true
+
+# All files
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = crlf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Data carriers files
+[*.{json,xml,xaml}]
+indent_size = 2
+
+# Project files
+[*.{csproj,wapproj}]
+indent_size = 2
+
+# Manifest files
+[*.{appxmanifest,manifest}]
+indent_size = 2
